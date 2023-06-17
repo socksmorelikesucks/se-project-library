@@ -236,7 +236,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: ("../images/staff_picks_background.jpg");
+  background-image: ("./images/staff_picks_background.jpg");
 }
 
 .staff__title {
@@ -372,7 +372,6 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  justify-content: top;
 }
 
 .about__content {
@@ -463,6 +462,6 @@
 }
 
 .footer__copyright {
-  padding-top: none;
+  padding-top: 0;
   /* It's fine as is without any modification; Looks much neater than if I gave it padding or margins. */
 }
