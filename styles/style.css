@@ -432,7 +432,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -469,5 +468,4 @@
 
 .footer__copyright {
   padding-top: 0;
-  /* It's fine as is without any modification; Looks much neater than if I gave it padding or margins. */
 }
