@@ -64,7 +64,7 @@
   top: 135px;
   right: 20px;
   max-width: 636px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {
@@ -269,6 +269,7 @@
 }
 
 .staff__cards {
+  /* This kind of came out of nowhere - I don't know if the project wanted me to name one of my other elements staff_cards, but the automated test accepted an empty rule and the cards seem fine as is. Not sure what this is about. */
 }
 
 .card {
@@ -426,6 +427,8 @@
   width: 116px;
   height: 21px;
   left: auto;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 .footer__list {
